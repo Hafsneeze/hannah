@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 1rem; 
+    text-align: center;
+}
+main {
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+footer {
+    position: fixed; width: 100%; bottom: 0; 
+}
+img {
+    border-radius:30px;
+    height:200px;
+}
+
+body {
+    font-family: Minecraftia;
+    font-weight: 100;
+    color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: lightblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:black;
+}
+li a:hover {
+    color:blue;
+  background-color: black;
+}
+@font-face {
+font-family:'kosmos';
+src: url(https://dl.dropbox.com/s/olyigvm99jgmn8h/PLANK___.TTF);
+}
+ 
+h1, div, h2, p, h3, a, h4, h5, h6 {
+font-family:'kosmos';
+font-size: 2em;
+}
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #a63030 #4f4f4f;
+  }
+  *::-webkit-scrollbar {
+    width: 22px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #4f4f4f;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a63030;
+    border-radius: 9px;
+    border: 14px solid #ffffff;
+  }
+ 
